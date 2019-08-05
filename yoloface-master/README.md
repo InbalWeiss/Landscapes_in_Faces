@@ -7,11 +7,18 @@
 
 The YOLOv3 (You Only Look Once) is a state-of-the-art, real-time object detection algorithm. The published model recognizes 80 different objects in images and videos. For more details, you can refer to this [paper](https://pjreddie.com/media/files/papers/YOLOv3.pdf).
 
+We have combined YOLOv3 with conv model(CNN), which is trained for facial keypoints detection based on Kaggle.com Facial Keypoints Detection challenge dataset. 
+
+
 ## YOLOv3's architecture
 
 ![Imgur](assets/yolo-architecture.png)
 
 Credit: [Ayoosh Kathuria](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
+
+## CONVO's architecture 
+
+6 layer convolutional neural network. 
 
 ## OpenCV Deep Neural Networks (dnn module)
 
@@ -56,10 +63,13 @@ $ pip install -r requirements.txt
 
 * Clone this repository
 ```bash
-$ git clone https://github.com/sthanhng/yoloface
+$ git clone https://github.com/InbalWeiss/Landscapes_in_Faces
 ```
 
 * For face detection, you should download the pre-trained YOLOv3 weights file which trained on the [WIDER FACE: A Face Detection Benchmark](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/index.html) dataset from this [link](https://drive.google.com/file/d/1xYasjU52whXMLT5MtF7RCPQkV66993oR/view?usp=sharing) and place it in the `model-weights/` directory.
+
+* For Facial Keypoints Detection, you should download the pre-trained CONVO weights file which trained on the [Kaggle's 
+Facial Keypoints Detection challenge](https://www.kaggle.com/c/facial-keypoints-detection/data) dataset from this [link](https://drive.google.com/open?id=1xbhMfMkf4vGHtArJRqiJsJDrb_ozq1pq) and place it in the `model-weights/` directory.
 
 * Run the following command:
 
@@ -81,10 +91,6 @@ $ python yoloface.py --src 1 --output-dir outputs/
 ## Sample outputs
 
 ![Imgur](assets/outside_000001_yoloface.jpg)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more details.
 
 ## References
 
