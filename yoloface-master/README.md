@@ -1,6 +1,5 @@
-# YOLOFace with Convo
 
-# Deep learning based Face detection using the YOLOv3 + CONVO algorithms
+# Deep learning based Face recognition using the YOLOv3 + CONVO algorithms
 
 
 ## Getting started
