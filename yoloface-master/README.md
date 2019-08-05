@@ -66,7 +66,7 @@ $ git clone https://github.com/InbalWeiss/Landscapes_in_Faces
 * For face detection, you should download the pre-trained YOLOv3 weights file which trained on the [WIDER FACE: A Face Detection Benchmark](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/index.html) dataset from this [link](https://drive.google.com/file/d/1xYasjU52whXMLT5MtF7RCPQkV66993oR/view?usp=sharing) and place it in the `model-weights/` directory.
 
 * For Facial Keypoints Detection, you should download the pre-trained CONVO weights file which trained on the [Kaggle's 
-Facial Keypoints Detection challenge](https://www.kaggle.com/c/facial-keypoints-detection/data) dataset from this [link](https://drive.google.com/open?id=1xbhMfMkf4vGHtArJRqiJsJDrb_ozq1pq) and place it in the `model-weights/` directory.
+Facial Keypoints Detection challenge](https://www.kaggle.com/c/facial-keypoints-detection/data) dataset from this [link](https://drive.google.com/open?id=1xbhMfMkf4vGHtArJRqiJsJDrb_ozq1pq) and place it in the `convo-weights/` directory.
 
 * Run the following command:
 
