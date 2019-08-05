@@ -6,7 +6,7 @@
 
 The YOLOv3 (You Only Look Once) is a state-of-the-art, real-time object detection algorithm. The published model recognizes 80 different objects in images and videos. For more details, you can refer to this [paper](https://pjreddie.com/media/files/papers/YOLOv3.pdf).
 
-We have combined YOLOv3 with conv model(CNN), which is trained for facial keypoints detection based on Kaggle.com Facial Keypoints Detection challenge dataset. 
+We have combined YOLOv3 with CONVO model(CNN), which is trained for facial keypoints detection based on Kaggle.com Facial Keypoints Detection challenge dataset. 
 
 
 ## YOLOv3's architecture
