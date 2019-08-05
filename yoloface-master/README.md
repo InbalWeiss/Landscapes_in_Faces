@@ -90,7 +90,7 @@ $ python yoloface.py --src 1 --output-dir outputs/
 
 ## Sample outputs
 
-![Imgur](assets/outside_000001_yoloface.jpg)
+![Imgur](assets/faces_2_yoloface.jpg)
 
 ## References
 
