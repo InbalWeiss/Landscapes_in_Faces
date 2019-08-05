@@ -14,12 +14,10 @@ We have combined YOLOv3 with conv model(CNN), which is trained for facial keypoi
 
 ![Imgur](assets/yolo-architecture.png)
 
-Credit: [Ayoosh Kathuria](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
 
 ## CONVO's architecture 
 
-6 layer convolutional neural network. 
-
+![Imgur](assets/convo.png)
 ## OpenCV Deep Neural Networks (dnn module)
 
 OpenCV `dnn` module supports running inference on pre-trained deep learning models from popular frameworks such as TensorFlow, Torch, Darknet and Caffe.
